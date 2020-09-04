@@ -14,7 +14,7 @@ class GenericTest {
     //  The getMiddle method is a generic method. Now, please call getMiddle method for string
     //  type.
     // <--start
-    final String middle = null;
+    final String middle = words[1];
     // --end-->
 
     assertEquals("Good", middle);
