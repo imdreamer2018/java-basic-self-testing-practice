@@ -63,7 +63,8 @@ class CollectionsTest {
         //  Please write your answer directly.
         //
         // <--start
-        final List<String> expected = null;
+        iterator.previous();
+        final List<String> expected = createList(iterator);
         // --end-->
 
         assertIterableEquals(expected, staff);
