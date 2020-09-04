@@ -52,7 +52,7 @@ class GenericTest {
   //  You should not change the signature of the function. But you can change
   //  the declaration of the generic type parameter.
   // <--start
-  private static <T extends Comparable> T min(T[] values) {
+  private static <T extends Comparable<? super T>> T min(T[] values) {
       T min = values[0];
       for (T val : values) {
           if (min.compareTo(val) > 0) {
