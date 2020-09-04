@@ -35,7 +35,7 @@ class CollectionsTest {
         //  No `for` is allowed.
         //
         // <--start
-
+        iterator.forEachRemaining(list::add);
         // --end-->
 
         return list;
